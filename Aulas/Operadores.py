@@ -23,12 +23,55 @@ while tipos != 0:
                   if fim == "10" or fim == "0":
                         tipos = int(fim)
       elif tipos == 2:
-            print("2")
+            print("Os operadores de comparação que o Python e outras linguagens possuem são:\n")
+            print("Igualdade ==\n")
+            print("Diferença !=\n")
+            print("Maior que > e Maior ou igual >=\n")
+            print("Menor que < e Meno ou igual <=\n")
+            print("Todas essas comparações retornam valores booleanos, sendo assim True e False.\n")
+            while tipos != 0 and tipos != 10:
+                  fim = input("Se desejar encerrar digite 0 e para prosseguir vendo outros operadores 10:")
+                  if fim == "10" or fim == "0":
+                        tipos = int(fim)
       elif tipos == 3:
-            print("3")
+            print("Os operadores de atribuição que o Python e outras linguagens possuem são:\n")
+            print("Atribuição simples =\n")
+            print("Atribuição com Adição +=\n")
+            print("Atribuição com Subtração -=\n")
+            print("Atribuição com Divisão /=\n")
+            print("Atribuição com Módulo %=\n")
+            print("Atribuição com Exponenciação **=\n")
+            print("Essas são as formas de atribuir um dado há um objeto do sistema.\n")
+            while tipos != 0 and tipos != 10:
+                  fim = input("Se desejar encerrar digite 0 e para prosseguir vendo outros operadores 10:")
+                  if fim == "10" or fim == "0":
+                        tipos = int(fim)
       elif tipos == 4:
-            print("4")
+            print("Os operadores lógicos que o Python possui são:\n")
+            print("Operador E and\n")
+            print("Operador Ou or\n")
+            print("Operador de Negação not\n")
+            print("Parênteses ()\n")
+            print("Esses são operadores que geralmente servem para tratar algum tipo de comparação, são usados principalmente para montar expressão lógica.\n")
+            while tipos != 0 and tipos != 10:
+                  fim = input("Se desejar encerrar digite 0 e para prosseguir vendo outros operadores 10:")
+                  if fim == "10" or fim == "0":
+                        tipos = int(fim)
       elif tipos == 5:
-            print("5")
+            print("Os operadores de identidade que o Python possui são:\n")
+            print("Operador is, sendo assim ele verifica se a variavel possui a mesma posição de memoria.\n")
+            print("Operador is not, esse ele verifica se a variavel não possui a mesma posição de memoria.\n")
+            print("Esses são operadores utilizados para comparar se dois objetos testados ocupam a mesma posição na memória.\n")
+            while tipos != 0 and tipos != 10:
+                  fim = input("Se desejar encerrar digite 0 e para prosseguir vendo outros operadores 10:")
+                  if fim == "10" or fim == "0":
+                        tipos = int(fim)
       elif tipos == 6:
-            print("6")
+            print("Os operadores de associação que o Python possui são:\n")
+            print("Operador in, sendo assim ele verifica se o objeto está na variavel ou variaveis.\n")
+            print("Operador in not, esse ele verifica se o objeto não está na variavel ou variaveis.\n")
+            print("Esses são operadores utilizados para verificar se um objeto está dentro de algo ou variavel.\n")
+            while tipos != 0 and tipos != 10:
+                  fim = input("Se desejar encerrar digite 0 e para prosseguir vendo outros operadores 10:")
+                  if fim == "10" or fim == "0":
+                        tipos = int(fim)
