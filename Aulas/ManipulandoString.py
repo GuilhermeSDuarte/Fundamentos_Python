@@ -28,4 +28,35 @@ adicionar outras informações:
     center() - função utilizada para centralizar a String de acordo com a quantidade de vetores na variavel;
     joint() - função que adiciona informações na String.
 """)
-        opcao = input("Para prosseguir com outros conteúdos digite 10 ou digite 0 para encerrar:\n")
+        while opcao != "10" and opcao != "0":
+            opcao = input("Para prosseguir com outros conteúdos digite 10 ou digite 0 para encerrar:\n")
+    if opcao == "2":
+        print(f"""Aqui você vai ver como fazer uma interpolação de variáveis em uma String:
+
+    %s/%d/%f - esse é um método antigo para que adicione objetos a String, onde %s são para incluir valores do tipo
+String, %d para valores do tipo Inteiro e %f para pontos flutuantes, exemplo: print("Olá, me chamo %s. Eu tenho %d
+anos de idade, trabalho como %s e estou matriculado no curso de %s." % (nome, idade, profissão, liguagem));
+    
+    .format - esse método utilizamos chaves nos locais onde desejamos adicionar as variaveis, usando esse método não
+precisamos necessariamente informar as variaveis na ordem em que devem ser colocadas, podemos informar a posição do
+objeto;
+
+    f-string - esse método é o mais simples, pois só precisamos informar a variavel entre chaves.
+""")
+        while opcao != "10" and opcao != "0":
+            opcao = input("Para prosseguir com outros conteúdos digite 10 ou digite 0 para encerrar:\n")
+    if opcao == "3":
+        print(f"""Esse método de agora veremos como fazer o fatiamento da String de uma variavel:
+    
+    [][:][::] - essas são as formas no qual podemos informar qual o vetor que desejamos buscar na String, por
+exemplo: podemos ter uma variavel com um nome nela, dessa variavel queremos buscar apenas uma letra, para isso só
+colocar [] e o indicador da area que deseja extrair a informação entre colchetes.
+""")
+        while opcao != "10" and opcao != "0":
+            opcao = input("Para prosseguir com outros conteúdos digite 10 ou digite 0 para encerrar:\n")
+    if opcao == "4":
+        print(f"""Esse método é o mais simples e que facilita na hora da escrita de alguma mensagem no print:
+    
+    Esse é só a gente observar o código, pois essa parte de 
+
+""")
